@@ -4,7 +4,7 @@
 ** File:   MSA Snowflake DDL - Group Project
 ** Desc:   Creating the MSA Snowflake Dimensional model
 ** Auth:   Davi Aragao, Anmol Madan, Shenglin Ye
-** Date:   03/08/2021
+** Date:   
 ************************************************/
 
 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0;
@@ -34,7 +34,7 @@ CREATE TABLE IF NOT EXISTS `msa_snowflake`.`dim_location` (
 ENGINE = InnoDB
 DEFAULT CHARACTER SET = latin1;
 
-
+-- Steve is great
 
 -- -----------------------------------------------------
 -- Table `msa_snowflake`.`dim_industry`
